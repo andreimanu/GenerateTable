@@ -1,0 +1,14 @@
+﻿<Window x:Class="Propuestas.Test.GenerarTabla"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Propuestas.Test"
+        mc:Ignorable="d"
+        Title="GenerarTabla" Height="300" Width="300">
+    <Grid>
+        <TextBox Text="" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,0,0,50" Width="150" Name="tbNombre" />
+        <Button Content="Generar" HorizontalAlignment="Center" VerticalAlignment="Center" Click="generar_click" />
+        <ProgressBar HorizontalAlignment="Left" Height="10" Margin="94,173,0,0" VerticalAlignment="Top" Width="100"/>
+    </Grid>
+</Window>
